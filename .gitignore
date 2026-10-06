@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+
+# Large media is served from Cloudflare R2.
+demo-preview*.mp4
+manual/
+blue-cardigan-list-view.png
+warehouse-flight-case-phone.png
+digital-links-kyoto-research.png
+
+# Local source images not used by the published site.
+blue-cardigan.jpg
+digital-links-concept.png
+warehouse-flight-case.png
