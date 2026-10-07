@@ -48,7 +48,7 @@ function renderHome() {
           '<div class="hero-image-frame">',
             '<img class="hero-image active" src="https://media.whatsinit.app/images/blue-cardigan-list-view.png" alt="A woman in a blue cardigan viewing the What’s In It? list view in a storage area">',
             '<img class="hero-image" src="https://media.whatsinit.app/images/warehouse-flight-case-phone.png" alt="A warehouse worker using What’s In It? beside a barcoded flight case and equipment racks" aria-hidden="true">',
-            '<img class="hero-image hero-image--digital" src="https://media.whatsinit.app/images/digital-links-kyoto-research.png" alt="Kyoto research links organised in the What’s In It? app" aria-hidden="true">',
+            '<img class="hero-image hero-image--digital" src="https://media.whatsinit.app/images/digital-links-kyoto-research.png?v=20261007-1" alt="Travel inspiration, guides, documents and social media links organised in the What’s In It? app" aria-hidden="true">',
           '</div>',
 
           '<div class="store-buttons">',
