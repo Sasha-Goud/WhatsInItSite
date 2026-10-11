@@ -62,7 +62,7 @@ function renderHome() {
       '<section class="demo-section">',
         '<div class="demo-frame">',
           '<video class="demo-video" preload="metadata" playsinline aria-label="What’s In It? demo preview">',
-            '<source src="https://media.whatsinit.app/video/demo-preview-no-hands-v2.mp4?v=20261011-1" type="video/mp4">',
+            '<source src="https://media.whatsinit.app/video/demo-final-supplied-20261011.mp4?v=20261011-2" type="video/mp4">',
             'Your browser does not support video playback.',
           '</video>',
           '<button class="demo-placeholder" type="button" aria-label="Play demo video">',
