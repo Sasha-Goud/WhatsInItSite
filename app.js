@@ -105,11 +105,18 @@ function renderHome() {
             '<div class="home-feature-card"><strong>Import and export</strong><span>Records can be imported and exported using app transfer files. Reports can be created as PDF, spreadsheet or CSV files, while the contents of an individual container can be exported as a packing list.</span></div>',
             '<div class="home-feature-card"><strong>No subscription</strong><span>The Trial version supports up to 30 records. The Full version removes this limit through a single purchase, with no subscription or repeat payments.</span></div>',
           '</div>',
+          '<div class="store-buttons store-buttons--features">',
+            '<a class="store-badge" href="#" aria-label="Download on the App Store"><img src="app-store-badge.png" alt="Download on the App Store"></a>',
+            '<a class="store-badge" href="#" aria-label="Get it on Google Play"><img src="google-play-badge.png" alt="Get it on Google Play"></a>',
+          '</div>',
         '</div>',
       '</section>',
 
       '<footer class="home-company-footer">',
-        '<p>What’s In It? is published by ForeData Limited, United Kingdom. <span aria-hidden="true">·</span> <a href="mailto:info@whatsinit.app">info@whatsinit.app</a> <span aria-hidden="true">·</span> © 2026 ForeData Limited.</p>',
+        '<p>',
+          '<span class="home-company-footer-brand"><img src="home_logo.png" alt=""><span class="home-company-footer-wordmark">What’s<b>init</b>?</span></span>',
+          '<span>is published by ForeData Limited, United Kingdom. <span aria-hidden="true">·</span> <a href="mailto:info@whatsinit.app">info@whatsinit.app</a> <span aria-hidden="true">·</span> © 2026 ForeData Limited.</span>',
+        '</p>',
       '</footer>',
 
     '</main>'

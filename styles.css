@@ -1035,14 +1035,14 @@ h1 {
   position: relative;
   background: rgb(255, 255, 255);
   border-bottom: 1mm solid rgb(62, 212, 62);
-  margin-bottom: 2.25mm;
+  margin-bottom: 2.5mm;
 }
 
 .site-header::after {
   content: "";
   position: absolute;
   right: 0;
-  bottom: -2.25mm;
+  bottom: -2.5mm;
   left: 0;
   height: 1mm;
   background: rgb(3, 49, 109);
@@ -1099,12 +1099,20 @@ h1 {
 }
 
 .nav-link.active {
-  font-weight: 700;
+  font-weight: inherit;
   color: rgb(210, 255, 150);
 }
 
 .nav-link.active {
-  font-weight: 700;
+  font-weight: inherit;
+  color: rgb(62, 212, 62);
+}
+
+.nav-link {
+  transition: color 150ms ease;
+}
+
+.nav-link:hover {
   color: rgb(62, 212, 62);
 }
 
@@ -1327,9 +1335,47 @@ body {
 .home-company-footer p {
   max-width: 1340px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
   color: rgb(112, 126, 143);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
+}
+
+.home-company-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgb(3, 49, 109);
+  white-space: nowrap;
+}
+
+.home-company-footer-brand img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.home-company-footer-wordmark {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.home-company-footer-wordmark b {
+  color: rgb(0, 198, 0);
+  font: inherit;
+  margin-left: 0.12em;
+}
+
+@media (min-width: 801px) {
+  .store-buttons--features {
+    transform: translateY(-40px);
+    margin-bottom: -40px;
+  }
 }
 
 .home-company-footer a {
