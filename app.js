@@ -66,7 +66,7 @@ function renderHome() {
             'Your browser does not support video playback.',
           '</video>',
           '<button class="demo-placeholder" type="button" aria-label="Play demo video">',
-            '<img class="demo-poster" src="demo-resting-cover.png?v=20261012-1" alt="">',
+            '<img class="demo-poster" src="demo-resting-cover.png?v=20261012-2" alt="">',
           '</button>',
           '<div class="demo-controls" hidden>',
             '<button class="demo-control-button" type="button" data-demo-action="back" aria-label="Go back 10 seconds"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 7-5 5 5 5M18 7l-5 5 5 5"></path></svg></button>',
