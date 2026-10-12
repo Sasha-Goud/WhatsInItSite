@@ -1031,10 +1031,16 @@ h1 {
   content: "";
   position: absolute;
   right: 0;
-  bottom: -2.5mm;
+  bottom: -3mm;
   left: 0;
-  height: 1mm;
-  background: rgb(44, 80, 135);
+  height: 3mm;
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 147, 61, 0.34) 0%,
+    rgba(66, 147, 61, 0.16) 38%,
+    rgba(66, 147, 61, 0) 100%
+  );
+  pointer-events: none;
 }
 
 .brand span,
