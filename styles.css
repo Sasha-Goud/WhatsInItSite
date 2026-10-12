@@ -1023,24 +1023,37 @@ h1 {
 .site-header {
   position: relative;
   background: rgb(255, 255, 255);
-  border-bottom: 1mm solid rgb(62, 212, 62);
-  margin-bottom: 2.5mm;
+  border-bottom: 0;
+  margin-bottom: 5mm;
 }
 
+.site-header::before,
 .site-header::after {
   content: "";
   position: absolute;
-  right: 0;
-  bottom: -3mm;
-  left: 0;
-  height: 3mm;
+  left: 50%;
+  width: calc(100% - 16px);
+  max-width: 1340px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.site-header::before {
+  bottom: 0;
+  height: 1px;
+  background: rgb(66, 147, 61);
+}
+
+.site-header::after {
+  bottom: -5mm;
+  height: 5mm;
   background: linear-gradient(
     to bottom,
-    rgba(66, 147, 61, 0.34) 0%,
-    rgba(66, 147, 61, 0.16) 38%,
-    rgba(66, 147, 61, 0) 100%
+    rgba(212, 251, 238, 0.98) 0%,
+    rgba(212, 251, 238, 0.72) 32%,
+    rgba(212, 251, 238, 0.35) 66%,
+    rgba(212, 251, 238, 0) 100%
   );
-  pointer-events: none;
 }
 
 .brand span,
@@ -1725,6 +1738,9 @@ body,
   color: var(--brand-green);
 }
 
-.site-header {
-  border-bottom-color: var(--brand-green);
+@media (max-width: 800px) {
+  .site-header::before,
+  .site-header::after {
+    width: calc(100% - 32px);
+  }
 }
