@@ -1650,3 +1650,75 @@ body {
     font-size: 13px;
   }
 }
+
+/* Unified brand colours and restrained navigation depth */
+:root {
+  --brand-text-blue: rgb(44, 80, 135);
+  --brand-green: rgb(66, 147, 61);
+}
+
+body,
+.home-page,
+.brand span,
+.brand .brand-wordmark,
+.manual-index-button:hover,
+.manual-index-button:focus-visible,
+.help-topbar .manual-download:hover,
+.help-topbar .manual-download:focus-visible,
+.manual-arrow,
+.demo-end-wordmark,
+.demo-end-card p,
+.demo-replay,
+.home-feature-card strong,
+.home-feature-card span,
+.support-manual-action,
+.qa-item h2,
+.prose h2,
+.qa-item p,
+.prose p,
+#manual-page-number,
+.manual-download,
+.manual-controls button,
+.home-company-footer-brand,
+.home-company-footer a:hover,
+.home-company-footer a:focus-visible {
+  color: var(--brand-text-blue);
+}
+
+.nav-link {
+  display: inline-block;
+  color: var(--brand-text-blue);
+  transition: color 160ms ease,
+              transform 160ms ease,
+              text-shadow 160ms ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible,
+.nav-link.active {
+  color: var(--brand-green);
+  transform: translateY(-2px);
+  text-shadow: 0 3px 5px rgba(44, 80, 135, 0.24),
+               0 0 5px rgba(66, 147, 61, 0.14);
+}
+
+.nav-link:focus-visible {
+  outline: none;
+}
+
+.hero-section h1,
+.demo-section h2,
+.use-section h2,
+.features-section h2,
+.section h1,
+.help-topbar h1,
+.support-manual-action:hover,
+.support-manual-action:focus-visible,
+.home-company-footer-wordmark b,
+.brand .brand-wordmark b {
+  color: var(--brand-green);
+}
+
+.site-header {
+  border-bottom-color: var(--brand-green);
+}
