@@ -1032,7 +1032,7 @@ h1 {
 }
 
 .site-header {
-  background: rgb(3, 49, 109);
+  background: rgb(255, 255, 255);
   border-bottom: 1mm solid rgb(62, 212, 62);
 }
 
@@ -1040,7 +1040,7 @@ h1 {
 .nav-link,
 .nav-link:hover,
 .nav-link.active {
-  color: rgb(255, 255, 255);
+  color: rgb(3, 49, 109);
 }
 
 .hero-image-frame {
@@ -1326,7 +1326,7 @@ body {
 }
 
 .brand .brand-wordmark {
-  color: rgb(255, 255, 255);
+  color: rgb(3, 49, 109);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 26px;
   font-weight: 300;
