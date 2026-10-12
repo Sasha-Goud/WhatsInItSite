@@ -619,7 +619,7 @@ h1 {
   aspect-ratio: 16 / 9;
   margin: 0 auto;
   border: 1px solid rgba(3, 49, 109, 0.28);
-  border-radius: 18px;
+  border-radius: 4px;
   overflow: hidden;
   background: rgb(3, 49, 109);
   box-shadow: 0 22px 52px rgba(3, 49, 109, 0.3),
@@ -1035,14 +1035,14 @@ h1 {
   position: relative;
   background: rgb(255, 255, 255);
   border-bottom: 1mm solid rgb(62, 212, 62);
-  margin-bottom: 3.5mm;
+  margin-bottom: 2.25mm;
 }
 
 .site-header::after {
   content: "";
   position: absolute;
   right: 0;
-  bottom: -3.5mm;
+  bottom: -2.25mm;
   left: 0;
   height: 1mm;
   background: rgb(3, 49, 109);
@@ -1099,12 +1099,12 @@ h1 {
 }
 
 .nav-link.active {
-  font-weight: inherit;
+  font-weight: 700;
   color: rgb(210, 255, 150);
 }
 
 .nav-link.active {
-  font-weight: inherit;
+  font-weight: 700;
   color: rgb(62, 212, 62);
 }
 
@@ -1463,7 +1463,7 @@ body {
   .demo-frame {
     width: 100%;
     aspect-ratio: 16 / 9;
-    border-radius: 12px;
+    border-radius: 4px;
   }
 
   .demo-end-card {

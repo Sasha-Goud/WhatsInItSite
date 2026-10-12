@@ -84,6 +84,10 @@ function renderHome() {
             '<button class="demo-replay" type="button" data-demo-action="replay">Replay demo</button>',
           '</div>',
         '</div>',
+        '<div class="store-buttons store-buttons--demo">',
+          '<a class="store-badge" href="#" aria-label="Download on the App Store"><img src="app-store-badge.png" alt="Download on the App Store"></a>',
+          '<a class="store-badge" href="#" aria-label="Get it on Google Play"><img src="google-play-badge.png" alt="Get it on Google Play"></a>',
+        '</div>',
       '</section>',
 
       '<section class="use-section">',
