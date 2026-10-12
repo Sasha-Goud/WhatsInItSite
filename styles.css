@@ -1045,8 +1045,8 @@ h1 {
 }
 
 .site-header::after {
-  bottom: -5mm;
-  height: 5mm;
+  bottom: -3.5mm;
+  height: 3.5mm;
   background: linear-gradient(
     to bottom,
     rgba(212, 251, 238, 0.98) 0%,
