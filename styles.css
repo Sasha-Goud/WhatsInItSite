@@ -1032,8 +1032,20 @@ h1 {
 }
 
 .site-header {
+  position: relative;
   background: rgb(255, 255, 255);
   border-bottom: 1mm solid rgb(62, 212, 62);
+  margin-bottom: 2mm;
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -2mm;
+  left: 0;
+  height: 1mm;
+  background: rgb(3, 49, 109);
 }
 
 .brand span,
@@ -1066,6 +1078,12 @@ h1 {
 
 .nav {
   margin-right: 40px;
+}
+
+@media (min-width: 801px) {
+  .nav {
+    transform: translateY(20px);
+  }
 }
 
 .header-inner {
@@ -1328,7 +1346,7 @@ body {
 .brand .brand-wordmark {
   color: rgb(3, 49, 109);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 26px;
+  font-size: 39px;
   font-weight: 300;
   letter-spacing: 0.8px;
 }
@@ -1379,7 +1397,7 @@ body {
   }
 
   .brand .brand-wordmark {
-    font-size: 22px;
+    font-size: 33px;
   }
 
   .nav {
