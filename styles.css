@@ -1708,8 +1708,7 @@ body,
   display: inline-block;
   color: var(--brand-text-blue);
   transition: color 160ms ease,
-              transform 160ms ease,
-              text-shadow 160ms ease;
+              transform 160ms ease;
 }
 
 .nav-link:hover,
@@ -1717,8 +1716,7 @@ body,
 .nav-link.active {
   color: var(--brand-green);
   transform: translateY(-2px);
-  text-shadow: 0 3px 5px rgba(44, 80, 135, 0.24),
-               0 0 5px rgba(66, 147, 61, 0.14);
+  text-shadow: none;
 }
 
 .nav-link:focus-visible {
