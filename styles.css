@@ -1734,6 +1734,24 @@ body,
   color: var(--brand-green);
 }
 
+@media (min-width: 801px) {
+  .hero-section .hero-heading-desktop {
+    width: calc(100% + 40px);
+    margin-right: -20px;
+    margin-left: -20px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .hero-heading-desktop span:first-child {
+    text-align: left;
+  }
+
+  .hero-heading-desktop span:last-child {
+    text-align: right;
+  }
+}
+
 @media (max-width: 800px) {
   .site-header::before,
   .site-header::after {
